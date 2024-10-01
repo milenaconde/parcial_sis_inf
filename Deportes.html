@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page de Deportes</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            background-image: url('https://images.freejpg.com.ar/900/1504/soccer-stadium-night-autobahn-highway-lights-red-F100021565.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .header p {
+            font-size: 24px;
+        }
+        .gallery-title {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .content {
+            background-color: #3cb3ff;
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); 
+            grid-gap: 0; 
+            justify-content: center;
+            align-items: center;
+            width: 420px; 
+            margin: 0 auto;
+        }
+        .gallery img {
+            width: 190px;
+            height: 120px;
+            border-radius: 15px;
+            border-bottom: 15px; 
+            border-left: 15px;
+            border-right: 15px;
+        }
+        .content a {
+            text-decoration: none;
+            background-color: #75757500;
+            color: rgb(228, 228, 228);
+            padding: 0px;
+            border-radius: 0px;
+            display: inline-block;
+            margin-top: 20px
+        }
+        .footer {
+            background-color: #0b2d4e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: auto;
+        }
+        .footer p {
+            margin: 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div>
+            <h1>Landing Page de Deportes</h1>
+            <p>¡Encuentra todo lo que necesitas para mantenerte activo!</p>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="gallery-title">Galería de fotos</div>
+        <div class="gallery">
+            <img src="ima/1-img.jfif" alt="Estadio 1" style="padding-right: 15px;padding-bottom: 15px;">
+            <img src="ima/2-img.jfif" alt="Estadio 2" style=" padding-bottom: 15px;">
+            <img src="ima/3-img.jfif" alt="Estadio 3">
+            <img src="ima/4-img.jfif" alt="Estadio 4">
+        </div>
+        
+        <a href="deportes_1.html">Regresar</a>
+    </div>
+
+    <div class="footer">
+        <p>© 2023 Landing Page Deportes</p>
+    </div>
+
+</body>
+</html>
